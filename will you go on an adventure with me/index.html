@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lets go on an adventure?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+	    <style>
+        a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #007BFF;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        a:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="love">
+            <h2><i>let's <span> go </span> <span>on</span><span> an adventure ?</span></i></h2>
+            <a id="yes" href="yes.html" class="btn yes">Yes</a>
+            <a id="maybe" href="maybe.html" class="btn maybe">Maybe</a>
+            <a id="no" href="no.html" class="btn no" onmouseover="moveButton()">No</a>
+        </div>
+    </div>
+</body>
+</html>
